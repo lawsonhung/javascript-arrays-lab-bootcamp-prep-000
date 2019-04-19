@@ -25,3 +25,7 @@ function prependKitten(name) {
   var newConcatArray = new Array;
   return newConcatArray.concat(name, kittens);
 }
+
+function removeLastKitten() {
+  return kittens.slice(-1);
+}
