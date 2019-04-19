@@ -22,10 +22,11 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  var newConcatArray = new Array();
+  var newConcatArray = new Array;
   return newConcatArray.concat(name, kittens);
 }
 
 function removeLastKitten() {
+  var newSlicedArray = new Array;
   return kittens.slice(kittens.length, 1);
 }
